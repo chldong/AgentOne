@@ -1,0 +1,30 @@
+{
+  "name": "agentone-desktop",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "SaitronBot 桌面客户端（Tauri）——直接调用 Agent",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.1.1",
+    "dompurify": "^3.4.12",
+    "marked": "^18.0.6",
+    "naive-ui": "^2.40.3",
+    "pinia": "^2.3.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.1.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "~5.6.3",
+    "vite": "^6.0.5",
+    "vue-tsc": "^2.2.0"
+  }
+}
